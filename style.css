@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(252, 252, 239);
+}
+h1 {
+	text-align: center;
+	font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 16px 150px;
+}
+
+.container {
+	padding: 40px;
+	margin: 0 auto;
+}
+
+.card {
+	list-style: none;
+	padding: 40px;
+	color: #222;
+	text-align: center;
+	border-radius: 20px;
+	position: relative;
+}
+
+.card-title {
+	text-transform: capitalize;
+	margin-bottom: 0px;
+	font-size: 32px;
+	font-weight: normal;
+	position: relative;
+	z-index: 2;
+}
+
+.card-image {
+	height: 150px;
+	position: relative;
+	z-index: 2;
+}
